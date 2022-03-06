@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="setInterval(`tampilWaktu()`,0)">
+	<!-- start block 1 - navbar -->
+    <section class="w-full  h-16 text-white bg-gradient-to-t from-black to-gray-800 shadow-xl p-9 relative">
+        <div class="text-white font-redressed absolute bottom-1/2 translate-y-1/2 left-2 cursor-default duration-1000 hover:rotate-360">
+            <p class=" text-2xl md:text-3xl tracking-wide" style="text-shadow:0px 0px 9px ;">
+                Gallery Jakmania
+            </p> 
+        </div>
+        <div class="hidden md:block">
+        <div class="absolute bottom-1/2 translate-y-1/2 right-2 font-['Source_Serif_Pro']">
+            <a href="#" class="p-3 font-bold rounded-lg text-slate-50 hover:font-bold" style="text-shadow:0px 0px 10px ;">Home</a>
+            <a href="./about.html" class="p-3 rounded-lg hover:bg-slate-50 text-slate-50 hover:text-slate-900 hover:font-bold transition-all">About</a>
+            <a href="./buyTicket.html" class="p-3 rounded-lg hover:bg-slate-50 text-slate-50 hover:text-slate-900 hover:font-bold transition-all">Buy Ticket</a>
+            <a href="./jadwal.html" class="p-3 rounded-lg hover:bg-slate-50 text-slate-50 hover:text-slate-900 hover:font-bold transition-all">Schedule</a>
+        </div>
+	</section>
+	<!-- finish block 1 - navbar -->
+
+    <!-- start block 2 - banner -->
+    <section class="bg-cover bg-bottom  font-serif" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://mmc.tirto.id/image/otf/1024x535/2021/04/26/antarafoto-persija-juara-piala-menpora-250421-yud-8.jpg);
+    ">
+        <div class="py-[192px] text-slate-50">
+            <p class="flex justify-center text-4xl ">Selamat Datang di<span class="font-redressed">&ensp;Gallery Jakmania</span></p>
+            <p class="flex justify-center text-center my-5">
+                "Bingung mau cari tiket pertandingan Persija Jakarta yang terpercaya ? <br> Harga rendah dan transaksi cepat serta aman ? <br> Jangan khawatir, Kami hadir untuk memberikan semua solusi dari masalah yang ada !"
+              </p>
+              <p id="waktu" class="flex justify-center text-center italic">
+                  <script>
+                        let tampilWaktu = () => {
+                            let waktu = new Date();
+                            const namaBulan = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Augustus","September","Oktober","November","Desember"];
+                            const namaHari  = [`Minggu`, `Senin`, `Selasa`, `Rabu`, `Kamis`, `Jum'at`, `Sabtu`]
+                            let tanggal = waktu.getDate(),
+                            hari  = namaHari[waktu.getDay()],
+                            bulan = namaBulan[waktu.getMonth()],
+                            tahun = waktu.getFullYear(),
+                            jam   = waktu.getHours(),
+                            menit = waktu.getMinutes(),
+                            detik = waktu.getSeconds();
+                            document.getElementById('waktu').innerHTML =  hari + ", " + tanggal + " " + bulan + " " + tahun + " - " + jam + ':' + menit + ':' + detik + '  Waktu Indonesia Barat';
+                        }
+              </script>
+              </p>
+        </div>
+    </section>
+    <!-- finish block 2 - banner -->
+
+	<script src="script.js"></script>
+    <!-- script tw-elements -->
+	<script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

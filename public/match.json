@@ -1,0 +1,114 @@
+[
+	{
+		"seri" : "5",
+		"id" : "1",
+		"pertandingan" : "Persija Jakarta vs Persib Bandung",
+		"waktu" : "Selasa, 1 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},	
+	{
+		"seri" : "5",
+		"id" : "2",
+		"pertandingan" : "Bali United vs Persija Jakarta",
+		"waktu" : "Minggu, 6 Maret 2022",
+		"kickof" : "20.45 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "5",
+		"id" : "3",
+		"pertandingan" : "Persija Jakarta vs Borneo FC",
+		"waktu" : "Kamis, 10 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "5",
+		"id" : "4",
+		"pertandingan" : "Tira-Kabo vs Persija Jakarta",
+		"waktu" : "Minggu, 13 Maret 2022",
+		"kickof" : "20.45 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "5",
+		"id" : "5",
+		"pertandingan" : "Persija Jakarta vs Madura United",
+		"waktu" : "Kamis, 17 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "5",
+		"id" : "6",
+		"pertandingan" : "Persija Jakarta vs PSM Makassar",
+		"waktu" : "Senin, 21 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "5",
+		"id" : "7",
+		"pertandingan" : "Bhayangkara FC vs Persija Jakarta",
+		"waktu" : "Sabtu, 26 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "I Wayan Dipta, Bali"
+	},
+	{
+		"seri" : "6",
+		"id" : "8",
+		"pertandingan" : "Persija Jakarta vs Persiwa Wawewa",
+		"waktu" : "Sabtu, 26 Maret 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "9",
+		"pertandingan" : "Persija Jakarta vs Real Madrid",
+		"waktu" : "Minggu, 1 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "10",
+		"pertandingan" : "Persija Jakarta vs Barcelona",
+		"waktu" : "Senin, 8 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "11",
+		"pertandingan" : "Persija Jakarta vs Juventus",
+		"waktu" : "Selasa, 10 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "12",
+		"pertandingan" : "Persija Jakarta vs Manchester United",
+		"waktu" : "Rabu, 18 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "13",
+		"pertandingan" : "Persija Jakarta vs Manchester City",
+		"waktu" : "Kamis, 22 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	},
+	{
+		"seri" : "6",
+		"id" : "14",
+		"pertandingan" : "Persija Jakarta vs Bayern Munchen",
+		"waktu" : "Jumat, 26 April 2022",
+		"kickof" : "20.30 WIB",
+		"stadion" : "Stadion Internasioal Jakarta, Jakarta Utara"
+	}
+]
