@@ -1,0 +1,10 @@
+ASSALAMUALAIKUM GAIS.
+
+INGIN MEMPERSEMBAHKAN AJA, WEBSITE SEDERHANA AING GAIS.
+
+IYEU LINK NA :
+https://andhikarahmatullah.github.io/Website-Gallery-Jakmania/public/home.html
+
+NUHUN GAIS WKWKWK
+
+WASSALAMUALAIKUM
